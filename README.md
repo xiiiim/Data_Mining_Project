@@ -1,12 +1,9 @@
 # data_mining_project_22
 
-## Week 1: Defining business case, choosing the Dataset and completing all setups
-Business Case: 
-- Predict Success of a movie; Success defined in terms of profitability and revenue. 
-- Predict Popularity of a movie
-- Sentiment Analysis
+## Business objective
+Our  objective  is  to identify popular movies to invest in US-produced movies’ copyrights that will likely have a high ROI, as measured by popularity amongst movie-goers.
 
-Dataset: 45000 movies_metadata 
-https://www.kaggle.com/rounakbanik/the-movies-dataset?select=credits.csv
+## General approach
+In this report,we tested 16 supervised predictive models and dived into a detailed examination of the top three models: XGBRegressor, GradientBoostingRegressor, and RandomForestRegressor. We expect to measure performance using adjusted R2(given the number of features)and RMSE.Based on our analysis, we believe ourXGBoostmodel with the predictors explains 69% of the variation in log-transformed target variable and as measured by adjustedR2. 
 
-## Week 2: Loading data and starting EDA
+### The data directory has the small datasets used. The ipynb and html versions of the code are in 'notebooks'.
